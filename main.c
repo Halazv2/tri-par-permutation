@@ -11,7 +11,7 @@ int main(){
 
     for (i=1;i<=5;i++)
     {
-    if ( tab[i-1]>tab[i])
+    if ( tab[i-1]>tab[i]){
 
          j=i;
   do
@@ -23,9 +23,9 @@ int main(){
     }
   while ( (j!=0 ) && ( tab[j-1]>=tab[j]));
     }
+    }
     for (i=0;i<=5;i++)
     printf("%d ",tab[i]);
       return 0;
 
 }
-
